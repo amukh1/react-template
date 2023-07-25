@@ -5,7 +5,8 @@
   "description": "React, using Vite bundler",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build --base=/dist/",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "keywords": [],
@@ -13,6 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "react-router": "^6.4.2",
+    "gh-pages": "^4.0.0",
+    "save-dev": "^0.0.1-security"
     "react-router-dom": "^6.4.2",
     "react-spring": "^9.5.5"
   },
