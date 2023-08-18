@@ -15,7 +15,7 @@
   "dependencies": {
     "react-router": "^6.4.2",
     "gh-pages": "^4.0.0",
-    "save-dev": "^0.0.1-security"
+    "save-dev": "^0.0.1-security",
     "react-router-dom": "^6.4.2",
     "react-spring": "^9.5.5"
   },
